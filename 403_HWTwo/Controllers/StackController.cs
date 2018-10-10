@@ -8,9 +8,10 @@ namespace _403_HWTwo.Controllers
 {
     public class StackController : Controller
     {
+        // GET: Stack
         public ActionResult Index()
         {
-            return View ();
+            return View();
         }
     }
 }
