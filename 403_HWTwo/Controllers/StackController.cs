@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -71,4 +72,22 @@ namespace _403_HWTwo.Controllers
             return RedirectToAction("Index", "Home");
         }
     }
+=======
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Web;
+using System.Web.Mvc;
+
+namespace _403_HWTwo.Controllers
+{
+    public class StackController : Controller
+    {
+        // GET: Stack
+        public ActionResult Index()
+        {
+            return View();
+        }
+    }
+>>>>>>> e072bf6e263e10154302c4d53ba4fb327fa1c1d1
 }
