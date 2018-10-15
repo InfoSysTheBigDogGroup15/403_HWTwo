@@ -9,12 +9,12 @@ namespace _403_HWTwo.Controllers
     public class StackController : Controller
     {
         static Stack<string> MyStack = new Stack<string>();
-
+        
         // GET: Stack
         public ActionResult Index()
         {
-            ViewBag.Mystack = MyStack;
-
+            ViewBag.Title = "Stack";
+            ViewBag.MyStack = MyStack;
             return View();
         }
 
@@ -22,9 +22,8 @@ namespace _403_HWTwo.Controllers
         {
             MyStack.Push("New Entry " + (MyStack.Count + 1));
 
-            ViewBag.MyStack = MyStack;
 
-            return View("Index");
+            return RedirectToRoute("Index");
         }
 
         public ActionResult AddHuge()
@@ -39,21 +38,14 @@ namespace _403_HWTwo.Controllers
                 i++;
             }
 
-            ViewBag.MyStack = MyStack;
-
-            return View("Index");
+            return RedirectToRoute("Index");
         }
 
         public ActionResult Display()
         {
-            ViewBag.MyStack += "<table>";
-
-            foreach (var AddString in MyStack)
-            {
-                ViewBag.Mystack += "<tr>";
-                ViewBag.MyStack += "<td>";
-            }
-            return View();
+            ViewBag.Title = "Stack";
+            ViewBag.MyStack = MyStack;
+            return View("Index");
         }
 
         public ActionResult Delete()
@@ -63,6 +55,7 @@ namespace _403_HWTwo.Controllers
 
         public ActionResult Clear()
         {
+            ViewBag.Title = "Stack";
             MyStack.Clear();
             ViewBag.MyStack = MyStack;
             return View("Index");
