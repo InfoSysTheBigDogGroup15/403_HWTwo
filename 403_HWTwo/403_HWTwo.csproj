@@ -94,7 +94,10 @@
     <Content Include="Content\StyleSheet.css" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
+    <Content Include="Graphics\dictionary.jpg" />
     <Content Include="Graphics\gandy.jpg" />
+    <Content Include="Graphics\queue.png" />
+    <Content Include="Graphics\stack.png" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
