@@ -13,5 +13,10 @@ namespace _403_HWTwo.Controllers
         {
             return View();
         }
+
+        public ActionResult Exit()
+        {
+            return Redirect("https://www.byu.edu");
+        }
     }
 }

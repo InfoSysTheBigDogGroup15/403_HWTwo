@@ -91,14 +91,28 @@
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
     <Content Include="Content\Site.css" />
+<<<<<<< HEAD
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
+=======
+    <Content Include="Content\StyleSheet.css" />
+    <Content Include="fonts\glyphicons-halflings-regular.svg" />
+    <Content Include="Global.asax" />
+    <Content Include="Graphics\dictionary.jpg" />
+    <Content Include="Graphics\gandy.jpg" />
+    <Content Include="Graphics\queue.png" />
+    <Content Include="Graphics\stack.png" />
+>>>>>>> CoolKorean
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
     <Content Include="Scripts\jquery-1.10.2.js" />
     <Content Include="Scripts\jquery-1.10.2.min.js" />
     <Content Include="Scripts\modernizr-2.6.2.js" />
+<<<<<<< HEAD
+=======
+    <Content Include="Scripts\w3script.js" />
+>>>>>>> CoolKorean
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -120,11 +134,18 @@
     <None Include="packages.config" />
     <Content Include="Views\_ViewStart.cshtml" />
     <Content Include="Views\Shared\_Layout.cshtml" />
+<<<<<<< HEAD
     <Content Include="Views\Dictionary\Index.cshtml" />
     <Content Include="Scripts\jquery-1.10.2.min.map" />
     <Content Include="Views\Home\Index.cshtml" />
     <Content Include="Views\Queue\Index.cshtml" />
     <Content Include="Views\Stack\Index.cshtml" />
+=======
+    <Content Include="Scripts\jquery-1.10.2.min.map" />
+    <Content Include="Views\Home\Index.cshtml" />
+    <Content Include="Views\Stack\Index.cshtml" />
+    <Content Include="Views\Shared\_Layout2.cshtml" />
+>>>>>>> CoolKorean
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -135,6 +156,12 @@
   <ItemGroup>
     <Folder Include="App_Data\" />
     <Folder Include="Models\" />
+<<<<<<< HEAD
+=======
+    <Folder Include="ViewBag\" />
+    <Folder Include="Views\Dictionary\" />
+    <Folder Include="Views\Queue\" />
+>>>>>>> CoolKorean
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
