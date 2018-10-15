@@ -60,10 +60,16 @@ namespace _403_HWTwo.Controllers
             }
             string FindAdict(int Dict)
             {
-                string assHole = "Hey ass whole you deleted dict number " + Dict;
-                String foundValue = DictList[Dict];
+                string assHole = "Hey ass hole you deleted dict number " + Dict;
+               // string foundValue = DictList[Dict];
                 return assHole;
             }
+            ViewBag.addDict = add2Dicionary();
+            ViewBag.addB = addBiglist();
+            ViewBag.deleteDict = DeleteDictionary();
+            ViewBag.clearDict = ClearDictionary();
+            ViewBag.TheDict = 8;
+            ViewBag.Findadict = FindAdict(ViewBag.TheDict = 8);
 
             return View();
         }
